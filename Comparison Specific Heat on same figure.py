@@ -1,6 +1,3 @@
-# Author: Kier von Konigslow
-# Date: April 2017
-#
 # Description: The purpose of this file is to plot Polystyrene (PS) density information based on experiment and theory for comparison.
 #
 from __future__ import division
@@ -307,4 +304,5 @@ for k in range(0,len(Program_Running_For)):
 
 plt.subplots_adjust(left=0.15,right=0.95,top=0.95,bottom=0.10,wspace=0.30,hspace=0.25)
 fig.savefig('./'+output_folder+r'\pure_Cp vs T_POST_THESIS_new'+img_extension,dpi=240)
+
 plt.show()
